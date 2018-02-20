@@ -5,6 +5,7 @@ git config --global --list
 git commit -m "Mensaje"
 
 git log 
+"muestra los comandos mas comunes usados"
 
 git log --oneline
 
