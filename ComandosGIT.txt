@@ -59,6 +59,9 @@ git branch
 
 git checkout -b branch_1
 
+git push origin nombre_rama
+
+
 git merge (nombre de la rama a fusionar en la actual)
 
 git branch -d nombre_rama_eliminar
