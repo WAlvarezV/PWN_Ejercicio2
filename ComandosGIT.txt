@@ -17,6 +17,7 @@ git push origin master
 
 github.com
 apps.co
+"realizar curso gratis de git hub para 50% de la nota"
 
 
 git clone 
