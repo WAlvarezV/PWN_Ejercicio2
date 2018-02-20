@@ -10,6 +10,7 @@ git commit -m "Mensaje"
 
 /* Visualizar listado de commit */
 git log 
+"muestra los comandos mas comunes usados"
 
 /* Visualizar ultima linea de commit */
 git log --oneline
@@ -27,10 +28,27 @@ git pull origin master
 git push origin master
 
 
+/*paginas web de interes*/
+bitbucket.org
 github.com
+/*realizar curso gratis de git hub para 50% de la nota*/
 apps.co
 
-
+/*comando que sirve para clonar el repositorio web*/
 git clone 
 
-bitbucket.org
+
+/*
+uso de multiples cuentas github
+https://jarroba.com/usar-multiples-cuentas-github-https/
+*/
+[credential]
+        helper = osxkeychain
+        useHttpPath = true
+
+[credential "https://github.com/RicardoMoya"]
+        username = RicardoMoya
+
+[credential "https://github.com/jarroba"]
+        username = jarroba
+
