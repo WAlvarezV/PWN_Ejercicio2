@@ -19,6 +19,6 @@ bitbucket.org
 github.com
 apps.co
 
-
+/*comando que sirve para clonar el repositorio web*/
 git clone 
 
