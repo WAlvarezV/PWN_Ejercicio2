@@ -22,3 +22,18 @@ apps.co
 
 git clone 
 
+
+/*
+uso de multiples cuentas github
+https://jarroba.com/usar-multiples-cuentas-github-https/
+*/
+[credential]
+        helper = osxkeychain
+        useHttpPath = true
+
+[credential "https://github.com/RicardoMoya"]
+        username = RicardoMoya
+
+[credential "https://github.com/jarroba"]
+        username = jarroba
+
