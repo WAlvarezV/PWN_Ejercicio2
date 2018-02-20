@@ -1,0 +1,23 @@
+git config --global user.email"mail@mail.com"
+git config --global user.name "name"
+git config --global --list
+
+git commit -m "Mensaje"
+
+git log 
+
+git log --oneline
+
+git diff
+git config --list --show-origin
+
+git pull origin master
+git push origin master
+
+github.com
+apps.co
+
+
+git clone 
+
+bitbucket.org
