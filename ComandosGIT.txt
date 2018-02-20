@@ -66,6 +66,8 @@ git merge (nombre de la rama a fusionar en la actual)
 
 git branch -d nombre_rama_eliminar
 
+git checkout -b rama_remota origin/rama_remota
+
 
 
 
