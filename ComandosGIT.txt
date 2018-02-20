@@ -22,5 +22,5 @@ apps.co
 "realizar curso gratis de git hub para 50% de la nota"
 
 /*comando que sirve para clonar el repositorio web*/
-git clone 
+git clone
 
