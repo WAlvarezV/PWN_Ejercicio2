@@ -39,7 +39,7 @@ git clone
 
 
 /*
-uso de multiples cuentas github
+uso de multiples cuentas github .gitconfig
 https://jarroba.com/usar-multiples-cuentas-github-https/
 */
 [credential]
@@ -51,4 +51,23 @@ https://jarroba.com/usar-multiples-cuentas-github-https/
 
 [credential "https://github.com/jarroba"]
         username = jarroba
+
+
+/* ramas en git */
+
+git branch		
+
+git checkout -b branch_1
+
+
+
+
+
+
+
+
+
+
+
+
 
