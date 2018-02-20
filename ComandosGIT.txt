@@ -15,11 +15,12 @@ git config --list --show-origin
 git pull origin master
 git push origin master
 
+/*paginas web de interes*/
+bitbucket.org
 github.com
 apps.co
 "realizar curso gratis de git hub para 50% de la nota"
 
-
+/*comando que sirve para clonar el repositorio web*/
 git clone 
 
-bitbucket.org
