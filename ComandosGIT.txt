@@ -1,26 +1,54 @@
+/* Actualizar configuracion de correo y nombre de usuario de cuenta de git local */
 git config --global user.email"mail@mail.com"
 git config --global user.name "name"
+
+/* Listar configuraciones globales*/
 git config --global --list
 
+/* Adicionar un mensaje o etiqueta a un commit */
 git commit -m "Mensaje"
 
+/* Visualizar listado de commit */
 git log 
 "muestra los comandos mas comunes usados"
 
+/* Visualizar ultima linea de commit */
 git log --oneline
 
+/* visualizar los últimos cambios cuando aun no esta guardado un commit */
 git diff
+
+
 git config --list --show-origin
 
+/* Bajar los cambios realizados en git hub a git local*/
 git pull origin master
+
+/* Subir los cambios realizados en git local a git hub*/
 git push origin master
+
 
 /*paginas web de interes*/
 bitbucket.org
 github.com
+/*realizar curso gratis de git hub para 50% de la nota*/
 apps.co
-"realizar curso gratis de git hub para 50% de la nota"
 
 /*comando que sirve para clonar el repositorio web*/
 git clone
+
+
+/*
+uso de multiples cuentas github
+https://jarroba.com/usar-multiples-cuentas-github-https/
+*/
+[credential]
+        helper = osxkeychain
+        useHttpPath = true
+
+[credential "https://github.com/RicardoMoya"]
+        username = RicardoMoya
+
+[credential "https://github.com/jarroba"]
+        username = jarroba
 
